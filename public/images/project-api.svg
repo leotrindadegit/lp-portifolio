@@ -1,0 +1,11 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" rx="28" fill="#EEF7FF"/>
+  <rect x="56" y="74" width="1088" height="552" rx="18" fill="#DCEEFF"/>
+  <rect x="96" y="116" width="340" height="42" rx="8" fill="#BDD9FF"/>
+  <rect x="96" y="182" width="1008" height="64" rx="10" fill="#CBE2FF"/>
+  <rect x="96" y="274" width="1008" height="64" rx="10" fill="#CBE2FF"/>
+  <rect x="96" y="366" width="1008" height="64" rx="10" fill="#CBE2FF"/>
+  <rect x="96" y="458" width="620" height="124" rx="10" fill="#AECDF8"/>
+  <rect x="744" y="458" width="360" height="124" rx="10" fill="#9AC0F3"/>
+  <text x="96" y="545" font-family="Segoe UI, Arial, sans-serif" font-size="34" fill="#214B80">API + Integracoes</text>
+</svg>

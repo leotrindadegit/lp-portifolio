@@ -1,0 +1,13 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="40" x2="640" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF1FF"/>
+      <stop offset="1" stop-color="#D8E6FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="720" rx="48" fill="url(#bg)"/>
+  <circle cx="360" cy="258" r="128" fill="#A9C0EB"/>
+  <path d="M143 605C143 486 239 390 358 390H362C481 390 577 486 577 605V632H143V605Z" fill="#7F9DD1"/>
+  <rect x="42" y="42" width="636" height="636" rx="36" stroke="#B6CAEE" stroke-width="8"/>
+  <text x="360" y="684" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" fill="#365A93">Sua foto de perfil</text>
+</svg>
