@@ -1,16 +1,22 @@
 <main class="portfolio-page">
   <section class="hero card">
-    <p class="eyebrow">Disponivel para novas oportunidades</p>
+    <div class="hero-top">
+      <p class="eyebrow">Disponivel para novas oportunidades</p>
+      <p class="updated">Atualizado em mes/ano</p>
+    </div>
+
     <h1>Seu Nome Completo</h1>
-    <p class="role">Desenvolvedor(a) Front-end | Angular | UI Engineering</p>
+    <p class="role">Desenvolvedor(a) Full Stack Senior | Angular | Node.js | Cloud</p>
+
     <p class="summary">
-      Profissional com X anos de experiencia em desenvolvimento web, foco em interfaces de alto desempenho e
-      experiencia do usuario. Especialista em transformar requisitos de negocio em produtos digitais claros e escalaveis.
+      Profissional com X anos de experiencia em desenvolvimento full stack, atuando da concepcao do produto
+      ate a entrega em producao. Experiencia com front-end moderno, APIs escalaveis, banco de dados e
+      observabilidade para garantir desempenho, seguranca e evolucao continua das aplicacoes.
     </p>
 
     <div class="hero-actions">
       <a class="btn primary" href="#contato">Entrar em contato</a>
-      <a class="btn ghost" href="#projetos">Ver projetos</a>
+      <a class="btn secondary" href="#projetos">Ver projetos</a>
     </div>
 
     <ul class="quick-info">
@@ -22,6 +28,33 @@
   </section>
 
   <section class="grid-layout">
+    <article class="card" id="resumo">
+      <h2>Resumo Executivo</h2>
+      <ul>
+        <li>Atuacao ponta a ponta: interface, regras de negocio, APIs, banco de dados e deploy.</li>
+        <li>Experiencia em arquitetura de microsservicos, integracao entre sistemas e mensageria.</li>
+        <li>Foco em qualidade de codigo, testes automatizados, performance e confiabilidade operacional.</li>
+      </ul>
+    </article>
+
+    <article class="card" id="habilidades">
+      <h2>Competencias Tecnicas</h2>
+      <div class="chips">
+        <span>Angular</span>
+        <span>TypeScript</span>
+        <span>Node.js</span>
+        <span>NestJS</span>
+        <span>JavaScript</span>
+        <span>PostgreSQL</span>
+        <span>MongoDB</span>
+        <span>Redis</span>
+        <span>Docker</span>
+        <span>AWS</span>
+        <span>CI/CD</span>
+        <span>Git</span>
+      </div>
+    </article>
+
     <article class="card" id="experiencia">
       <h2>Experiencia Profissional</h2>
 
@@ -30,11 +63,11 @@
           <h3>Empresa Atual</h3>
           <span>2023 - Atual</span>
         </header>
-        <p class="position">Desenvolvedor(a) Front-end Senior</p>
+        <p class="position">Desenvolvedor(a) Full Stack Senior</p>
         <ul>
-          <li>Liderou a construcao de features em Angular com foco em performance e acessibilidade.</li>
-          <li>Reduziu tempo de carregamento da aplicacao em X% com melhorias de bundle e lazy loading.</li>
-          <li>Atuou em colaboracao com design, produto e backend em squads ageis.</li>
+          <li>Desenvolvimento e sustentacao de aplicacoes web com Angular no front-end e Node.js/NestJS no back-end.</li>
+          <li>Projeto e evolucao de APIs REST, integracoes com servicos externos e processamento assíncrono.</li>
+          <li>Modelagem de dados, tuning de consultas e melhoria de desempenho em PostgreSQL e Redis.</li>
         </ul>
       </div>
 
@@ -43,56 +76,40 @@
           <h3>Empresa Anterior</h3>
           <span>2020 - 2023</span>
         </header>
-        <p class="position">Desenvolvedor(a) Front-end Pleno</p>
+        <p class="position">Desenvolvedor(a) Full Stack Pleno</p>
         <ul>
-          <li>Desenvolveu interfaces reutilizaveis e padronizadas para sistema interno.</li>
-          <li>Implantou testes automatizados para fluxos criticos e reduziu regressao em producao.</li>
-          <li>Participou da migracao de arquitetura legada para componentes modernos.</li>
+          <li>Construcao de modulos front-end e back-end para plataformas internas e produtos digitais.</li>
+          <li>Automacao de pipelines CI/CD e monitoramento de ambientes para reduzir falhas em producao.</li>
+          <li>Participacao em definicao arquitetural, code review e padronizacao tecnica do time.</li>
         </ul>
       </div>
     </article>
 
     <article class="card" id="projetos">
-      <h2>Projetos em Destaque</h2>
+      <h2>Projetos Relevantes</h2>
 
       <div class="project">
-        <h3>Projeto 01 - Plataforma de Gestao</h3>
+        <h3>Plataforma SaaS de Gestao</h3>
         <p>
-          Aplicacao para monitoramento de indicadores e operacoes, com dashboard interativo e filtros avancados.
+          Sistema completo para operacoes e analytics, com front-end em Angular, API modular e persistencia relacional.
         </p>
-        <p class="stack">Stack: Angular, TypeScript, RxJS, SCSS</p>
+        <p class="stack">Stack: Angular, Node.js, NestJS, PostgreSQL, Docker</p>
       </div>
 
       <div class="project">
-        <h3>Projeto 02 - Landing Comercial</h3>
+        <h3>Portal de Atendimento e Integracoes</h3>
         <p>
-          Landing page orientada a conversao com testes A/B, formularios e integracao com CRM.
+          Portal corporativo com autenticacao, controle de acesso, filas assíncronas e integracoes com sistemas legados.
         </p>
-        <p class="stack">Stack: Angular, HTML, SCSS, API REST</p>
+        <p class="stack">Stack: Angular, Node.js, Redis, RabbitMQ, MongoDB</p>
       </div>
 
       <div class="project">
-        <h3>Projeto 03 - Portal Interno</h3>
+        <h3>Arquitetura de Deploy e Observabilidade</h3>
         <p>
-          Portal de comunicacao corporativa com autenticacao, permissoes e modulos configuraveis.
+          Estruturacao de esteira CI/CD, conteinerizacao e monitoramento para ganho de estabilidade e tempo de entrega.
         </p>
-        <p class="stack">Stack: Angular, Node.js, JWT</p>
-      </div>
-    </article>
-
-    <article class="card" id="habilidades">
-      <h2>Habilidades</h2>
-      <div class="chips">
-        <span>Angular</span>
-        <span>TypeScript</span>
-        <span>JavaScript</span>
-        <span>RxJS</span>
-        <span>SCSS</span>
-        <span>HTML5</span>
-        <span>NgRx</span>
-        <span>Node.js</span>
-        <span>Git</span>
-        <span>Jest</span>
+        <p class="stack">Stack: Docker, AWS, GitHub Actions, CloudWatch</p>
       </div>
     </article>
 
@@ -101,15 +118,15 @@
       <ul class="list-clean">
         <li><strong>Graduacao em ...</strong> - Nome da Instituicao (Ano)</li>
         <li><strong>Pos-graduacao em ...</strong> - Nome da Instituicao (Ano)</li>
-        <li><strong>Certificacao ...</strong> - Instituicao (Ano)</li>
+        <li><strong>Certificacao AWS / Cloud ...</strong> - Instituicao (Ano)</li>
       </ul>
     </article>
 
     <article class="card" id="contato">
       <h2>Contato</h2>
       <p>
-        Aberto(a) a oportunidades de trabalho remoto ou hibrido. Entre em contato para projetos, consultorias
-        ou colaboracoes.
+        Disponivel para oportunidades Full Stack em times de produto, plataforma ou consultoria,
+        em modelo remoto ou hibrido.
       </p>
       <ul class="list-clean">
         <li><strong>Email:</strong> email@exemplo.com</li>
